@@ -1,28 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <script>
         // type1. no parameter and no return type.
-        function greet(){
+        function greet() {
             console.log("hello world");
         }
         greet();
 
         // type2. with parameter and no return type.
-        function sum(a,b){
-            let c= a+b;
+        function sum(a, b) {
+            let c = a + b;
             console.log(c);
-            
+
         }
-        sum(4,5);
-        sum(5,5);
+        sum(4, 5);
+        sum(5, 5);
+
+
+        function name(n, age) {
+            console.log("my name is", n, " and age is ", age);
+        }
+        name("Deepak", 22);
+
+
+        // type 3.no parameter but return type .
+        function showdetails() {
+            return "welcome";
+
+        }
+        console.log(showdetails());
+
+        let x = showdetails();
+        console.log(x);
+        
+        //type 4. parameter with return type.
+        function demo(name){
+            return "my name is",name;
+        }
+        console.log(demo ("deepak"));
+
+        let a = demo("deepak");
+        console.log(a);
+        
+
+
+
 
     </script>
-    
+
 </body>
+
 </html>
