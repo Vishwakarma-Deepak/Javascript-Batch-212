@@ -3,6 +3,7 @@ console.log(array);
 console.log(array[1]);
 
 // types of array function . 
+
 // 1 length - returns the number of element 
 console.log(array.length);
 
@@ -25,14 +26,12 @@ console.log(array);
 // 6.reverse() - reverse an element
 console.log(array.reverse());
 
-// 7.includes() - checks whether an element exists.
+// 7.includes() - checks whether an element exists. it also consider a gap .
 console.log(array.includes("shiva"));
 
 
-// task 
-let rollnum=[12,34,45,34,56]
-console.log(rollnum);
-console.log(rollnum.reverse());
+
+
 
 
 
