@@ -1,4 +1,4 @@
-let array=["alam","deepak",1,2,23,3,true]
+let array = ["alam", "deepak", 1, 2, 23, 3, true]
 console.log(array);
 console.log(array[1]);
 
