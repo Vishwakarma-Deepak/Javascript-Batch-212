@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1 id="printdata"></h1>
+    <p class="demo"></p>
+    <h3></h3>
+    <p class="demo"></p>
+    <p class="demo"></p>
+    <h3>hello</h3>
+
+    <script>
+        document.getElementById("printdata").innerHTML = "welcome";
+        document.getElementsByClassName("demo")[0].innerHTML = "blue";
+        document.getElementsByClassName("demo")[1].innerHTML = "red";
+        document.getElementsByClassName("demo")[2].innerHTML = "yellow";
+        document.getElementsByTagName("h3")[1].style.color = "red";
+        document.getElementsByTagName("h3")[0].innerHTML = "deepak";
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <p class="demo">hello</p>
+    <p class="demo">welcome</p>
+    <p class="demo">javascript</p>
+    <!-- <button onclick="submit1()">submit</button> -->
+    <button onmouseover="submit1()" onmouseleave="default1()">submit</button>
+
+    <script>
+        function submit1() {
+            let data = document.querySelectorAll(".demo");
+            data[0].style.color = "red";
+            data[1].style.color = "green";
+            data[2].style.color = "yellow";
+        }
+
+        function default1() {
+            let dat = document.querySelectorAll(".demo");
+            dat[0].style.color = "black";
+            dat[1].style.color = "black";
+            dat[2].style.color = "black";
+
+
+        }
+        
+    </script>
+
+</body>
+
+</html>
